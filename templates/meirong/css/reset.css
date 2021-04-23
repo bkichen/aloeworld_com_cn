@@ -1,0 +1,47 @@
+
+html{}
+body { margin:0; padding:0;font-size:12px;font-family:'宋体',Arial, Helvetica, sans-serif;text-align:left;}
+body > div {margin-right:auto; margin-left:auto;} 
+div,form,img,ul,ol,li,p,dl,dt,dd,input,td,tr,th,input{ margin: 0; padding: 0;}
+/* input[type="button"],input[type="submit"],input[type="reset"],input{-webkit-appearance: none;-webkit-border-radius:0px; } */
+table{border-collapse:collapse;border:none;border: 0px;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;font-weight:normal;font-family:'Microsoft YaHei';font-weight:bold;font-size:14px;}
+ul,li {list-style:none;line-height:24px;}
+img{border:0px;}
+a {text-decoration:none;color:#333;cursor: pointer;cursor: hand;outline:none;blr:expression(this.onFocus=this.blur());}
+a:hover{text-decoration:none;color:#c00;}
+.left{ float: left;}
+.right{ float: right;}
+.clear:after,.con:after{content:" ";display:block;visibility:hidden;height:0;clear:both;}
+.clear,.con:after{*zoom:1}
+
+/* 普通翻页器-默认居中 */
+.m-page{padding:40px 0;text-align:center;line-height:32px;font-size:0;letter-spacing:-0.307em;*letter-spacing:normal;*word-spacing:-1px;word-wrap:normal;white-space:nowrap;color:#333;font-family:'microsoft yahei';border-top: solid #ccc 1px;margin-top: 20px;}
+.m-page a,.m-page i{display:inline-block;*display:inline;*zoom:1;vertical-align:top;padding:0 12px;margin-left:-1px;font-size:12px;font-style:normal;letter-spacing:normal;word-spacing:normal;background:#f5f5f5;}
+.m-page i{background:none;}
+.m-page a{text-decoration:none;color:#000;}
+.m-page a:hover{text-decoration:none;color:#FFF;}
+.m-page .first{margin-left:0;background:none;}
+.m-page a.last{margin-right:0;}
+.m-page a .pagearr{font-weight:bold;font-family:\5b8b\4f53;vertical-align:top;*vertical-align:middle;}
+.m-page a.pageprv .pagearr{margin-right:3px;}
+.m-page a.pagenxt .pagearr{margin-left:3px;}
+.m-page a:hover{background:#603391;}
+.m-page a:active{background:#603391;}
+.m-page a.z-crt,.m-page a.z-crt:hover,.m-page a.z-crt:active{cursor:default;color:#FFF;background:#603391;}
+.m-page a.z-dis,.m-page a.z-dis:hover,.m-page a.z-dis:active{cursor:default;color:#ccc;background:#f5f5f5;}
+.indpage a:hover,
+.indpage a:active,
+.indpage a.z-crt,
+.indpage a.z-crt:hover,
+.indpage a.z-crt:active{background:#0F984B;}
+/* 居左 */
+.m-page-lt{text-align:left;}
+/* 居右 */
+.m-page-rt{text-align:right;}
+/* 较小 */
+.m-page-sm{line-height:22px;}
+.m-page-sm a,.m-page-sm i{padding:0 8px;}
+/* 分离 */
+.m-page-sr a,.m-page-sr i{margin:0 3px;}
+.m-page-sr i{border:0;}
